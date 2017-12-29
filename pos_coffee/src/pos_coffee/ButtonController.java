@@ -17,16 +17,16 @@ public class ButtonController {
 			public void actionPerformed(ActionEvent e) {
 				Object obj = e.getSource();
 				if (obj == t.mainBtn) {
-					t.Main.setBackground(Color.red);
+					PanelChange.viewPanel(0);
 
 				} else if (obj == t.productBtn) {
-					t.Main.setBackground(Color.blue);
+					PanelChange.viewPanel(1);
 
 				} else if (obj == t.memberBtn) {
-					t.Main.setBackground(Color.black);
+					PanelChange.viewPanel(2);
 
 				} else if (obj == t.salesBtn) {
-					t.Main.setBackground(Color.white);
+					PanelChange.viewPanel(3);
 				}
 			}// actionPerformed
 		});
