@@ -4,6 +4,7 @@ import java.sql.*;
 import java.util.*;
 
 
+
 public class DBDAO {
 	String jdbcDiver = "com.mysql.jdbc.Driver";
 	String jdbcUrl = "jdbc:mysql://localhost/coffee_teamproject";
@@ -29,7 +30,6 @@ public class DBDAO {
 		try {
 			// JDBC 드라이버 로드
 			Class.forName(jdbcDiver);
-
 			// 데이터베이스 연결
 			conn = DriverManager.getConnection(jdbcUrl, dbID, dbPassword);
 			System.out.println(conn);
