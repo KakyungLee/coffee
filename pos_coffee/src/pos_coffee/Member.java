@@ -2,9 +2,9 @@ package pos_coffee;
 
 public class Member {
 	private int memno;
-	private String memphone;
+	private String memphone = "00000000000";
 	private String memname;
-	private int memstamp;
+	private int memstamp = 0;
 	
 	public Member() {
 		
@@ -44,3 +44,4 @@ public class Member {
 		return memno + " "+ memphone + " "+ memname + " "+ memstamp;
 	}
 }
+

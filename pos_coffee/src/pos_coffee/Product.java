@@ -1,9 +1,9 @@
 package pos_coffee;
 
 public class Product {
-	private int procode;
-	private String proname;
-	private int proprice;
+	private int procode = 0;
+	private String proname = null;
+	private int proprice = 0;
 	
 	public Product() {
 		
