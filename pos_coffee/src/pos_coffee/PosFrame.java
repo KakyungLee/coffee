@@ -1,5 +1,10 @@
 package pos_coffee;
 
-public class PosFrame {
+import java.awt.*;
+import javax.swing.*;
+import java.awt.event.*;
 
+public class PosFrame extends JFrame{
+
+	
 }
