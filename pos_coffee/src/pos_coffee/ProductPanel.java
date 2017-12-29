@@ -4,8 +4,8 @@ import java.awt.*;
 
 import javax.swing.*;
 
-public class ProductMemberPanel extends JPanel {
-	public ProductMemberPanel(){
+public class ProductPanel extends JPanel {
+	public ProductPanel(){
 		this.setBackground(Color.yellow);
 	}
 }

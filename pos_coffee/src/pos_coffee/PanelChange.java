@@ -8,8 +8,8 @@ public class PanelChange {
 	private static Container contentPane;
 
 	private static MainPanel MainPanel;
-	private static ProductMemberPanel ProductPanel;
-	private static ProductMemberPanel MemberPanel;
+	private static ProductPanel ProductPanel;
+	private static ProductPanel MemberPanel;
 	private static SalesPanel SalesPanel;
 
 	protected int Num = 4;
@@ -23,8 +23,8 @@ public class PanelChange {
 		x = new Component[Num];
 
 		MainPanel = new MainPanel();
-		ProductPanel = new ProductMemberPanel();
-		MemberPanel = new ProductMemberPanel();
+		ProductPanel = new ProductPanel();
+		MemberPanel = new ProductPanel();
 		SalesPanel = new SalesPanel();
 
 		x[0] = MainPanel;
