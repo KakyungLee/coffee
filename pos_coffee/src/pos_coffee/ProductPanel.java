@@ -6,6 +6,6 @@ import javax.swing.*;
 
 public class ProductPanel extends JPanel {
 	public ProductPanel(){
-		this.setBackground(Color.yellow);
+		this.setSize(1275,1000);
 	}
 }

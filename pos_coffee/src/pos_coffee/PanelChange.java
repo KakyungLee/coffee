@@ -9,7 +9,7 @@ public class PanelChange {
 
 	private static MainPanel MainPanel;
 	private static ProductPanel ProductPanel;
-	private static ProductPanel MemberPanel;
+	private static MemberPanel MemberPanel;
 	private static SalesPanel SalesPanel;
 
 	protected int Num = 4;
@@ -24,7 +24,7 @@ public class PanelChange {
 
 		MainPanel = new MainPanel();
 		ProductPanel = new ProductPanel();
-		MemberPanel = new ProductPanel();
+		MemberPanel = new MemberPanel();
 		SalesPanel = new SalesPanel();
 
 		x[0] = MainPanel;

@@ -1,5 +1,14 @@
 package pos_coffee;
 
-public class MemberPanel {
+import java.awt.*;
+
+import javax.swing.*;
+
+
+public class MemberPanel extends JPanel{
+	
+	public MemberPanel() {
+		
+	}
 
 }

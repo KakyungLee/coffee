@@ -8,6 +8,7 @@ public class ButtonController {
 	private final TabPanel t;
 
 	public ButtonController(TabPanel tab) {
+	
 		this.t = tab;
 	}
 
